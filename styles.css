@@ -51,3 +51,8 @@
 .image-page-container h2 {
     color: #333;
 }
+
+.thumbnail {
+    cursor: pointer;
+    /* Rest of your thumbnail styles */
+}
