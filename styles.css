@@ -99,7 +99,7 @@
 }
 
 .thumbnail {
-    width: 150px; /* Set the width of the thumbnails */
+    width: 170px; /* Set the width of the thumbnails */
     height: auto; /* Maintain the aspect ratio of the thumbnails */
     cursor: pointer;
     /* Rest of your thumbnail styles */
