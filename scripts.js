@@ -4,7 +4,7 @@ function openModal(clickedThumbnail) {
     var fullSizeSrc = clickedThumbnail.parentElement.href; // Get full-size image URL from the anchor tag
     modalImg.src = fullSizeSrc;
     modalImg.alt = clickedThumbnail.alt; // Use the same alt text as the thumbnail
-    modal.style.display = "block"; // Display the modal
+    modal.style.display = "flex"; // Change to "flex" to display the modal using flexbox
     event.preventDefault(); // Prevent the default anchor action
 }
 
