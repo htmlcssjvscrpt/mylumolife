@@ -2,3 +2,7 @@
     width: 25%;
     height: auto;
 }
+
+body, html {
+    background-color: #a9a9a9;;
+}
