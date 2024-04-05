@@ -12,11 +12,12 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372F0;
+  background: #f3dce3;
 }
 .container{
   width: 440px;
   border-radius: 7px;
+  border: 2px solid black;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }

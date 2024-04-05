@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #5E63BA;
+    background: #f3dce3;
 }
 .container {
     display: flex;
@@ -20,6 +20,7 @@ body {
     gap: 70px;
     padding: 60px 40px;
     background: #fff;
+    border: 2px solid black;
     border-radius: 10px;
     align-items: flex-end;
     justify-content: space-between;
@@ -84,7 +85,7 @@ body {
     font-weight: 600;
     border-radius: 4px;
     text-transform: uppercase;
-    background: #5E63BA;
+    background: rgb(8, 120, 8);
 }
 .keyboard button {
     padding: 7px;
@@ -95,7 +96,7 @@ body {
     opacity: 0.6;
 }
 :where(.game-modal, .keyboard) button:hover {
-    background: #8286c9;
+    background: #27b012;
 }
 .game-modal {
     position: fixed;

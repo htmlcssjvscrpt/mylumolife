@@ -11,10 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #6563FF;
+  background: #f3dce3;
 }
 .wrapper{
   padding: 25px;
+  border: 2px solid black;
   border-radius: 10px;
   background: #F8F8F8;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);

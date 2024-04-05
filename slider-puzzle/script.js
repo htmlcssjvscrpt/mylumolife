@@ -1,4 +1,15 @@
 const GameDifficulty=[20,50,70];
+
+//taking care of the difficulty buttons
+var difficulty_buttons=Array.from(document.getElementsByClassName("difficulty_button"));
+difficulty_buttons.forEach((elem,idx)=>{
+    elem.addEventListener('click',(e)=>{
+        difficulty_buttons[GameDifficulty.indexOf(game.difficulty)].classList.remove("active");
+        elem.classList.add("active");
+        game.setDifficulty(idx+1);
+    });
+});
+
 class Game{
     difficulty;//difficulty based on GameDifficulty array
     cols=3;//how many colomns
@@ -93,12 +104,3 @@ class Game{
 var game=new Game(1);//instantiate a new Game
 
 
-//taking care of the difficulty buttons
-var difficulty_buttons=Array.from(document.getElementsByClassName("difficulty_button"));
-difficulty_buttons.forEach((elem,idx)=>{
-    elem.addEventListener('click',(e)=>{
-        difficulty_buttons[GameDifficulty.indexOf(game.difficulty)].classList.remove("active");
-        elem.classList.add("active");
-        game.setDifficulty(idx+1);
-    });
-});
