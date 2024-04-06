@@ -20,6 +20,7 @@ body{
   border: 2px solid black;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  margin-bottom: 50px;
 }
 .container h2{
   font-size: 25px;
