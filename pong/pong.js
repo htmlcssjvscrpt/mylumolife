@@ -3,9 +3,9 @@ var Pong=function(){
     this.paddleWidth=10;
     this.paddleHeight=100;
     this.ballRadius=10;
-    this.ballSpeed=3;
+    this.ballSpeed=6;
     this.ballXDir=this.ballYDir=1;
-    this.paddleSpeed=3;
+    this.paddleSpeed=6;
     this.paddle1={x:10,y:ch/2-_.paddleHeight/2,w:_.paddleWidth,h:_.paddleHeight};
     this.paddle2={x:cw-_.paddleWidth-10,y:ch/2-_.paddleHeight/2,w:_.paddleWidth,h:_.paddleHeight};
     this.ball={x:cw/2,y:ch/2,r:_.ballRadius};
