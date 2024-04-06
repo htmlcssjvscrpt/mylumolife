@@ -94,10 +94,10 @@ body{
   background: #5f666d;
 }
 .buttons .check-word{
-  background: #5372F0;
+  background: green;
 }
 .buttons .check-word:hover{
-  background: #2c52ed;
+  background: rgb(0, 97, 0);
 }
 
 @media screen and (max-width: 470px) {
