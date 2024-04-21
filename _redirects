@@ -1,3 +1,5 @@
 http://www.mylumolife.com/* https://mylumolife.com/:splat 301!
 http://mylumolife.com/* https://mylumolife.com/:splat 301!
 https://www.mylumolife.com/* https://mylumolife.com/:splat 301!
+
+/images/*   /   410!
