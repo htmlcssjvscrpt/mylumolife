@@ -8,6 +8,11 @@ body, html {
 }
 
 .page-image {
-    width: 45%;
+    width: 55%;
+    height: auto;
+}
+
+.page-image-smaller {
+    width: 35%;
     height: auto;
 }
