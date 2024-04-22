@@ -16,3 +16,10 @@ body, html {
     width: 35%;
     height: auto;
 }
+
+@media only screen and (orientation: portrait) {
+    img {
+        width: 75%;
+        height: auto;
+    }
+}
