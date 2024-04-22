@@ -18,8 +18,8 @@ body, html {
 }
 
 @media only screen and (orientation: portrait) {
-    img {
-        width: 75%;
+    .page-image {
+        width: 100%;
         height: auto;
     }
 }
