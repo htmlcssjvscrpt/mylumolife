@@ -1,7 +1,3 @@
-.game-image {
-    width: 25%;
-    height: auto;
-}
 
 body, html {
     background-color: #f3dce3;
@@ -13,7 +9,7 @@ body, html {
 }
 
 .page-image-smaller {
-    width: 35%;
+    width: 40%;
     height: auto;
 }
 
@@ -22,4 +18,10 @@ body, html {
         width: 100%;
         height: auto;
     }
+
+    .page-image-smaller {
+        width: 100%;
+        height: auto;
+    }
+
 }
