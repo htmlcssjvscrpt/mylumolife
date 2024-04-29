@@ -25,3 +25,15 @@ body, html {
     }
 
 }
+
+.category-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* This will allow categories to wrap to the next line */
+    justify-content: space-around; /* This spreads the categories evenly across the width of the wrapper */
+}
+
+.category {
+    flex: 1 1 30%; /* This sets the flex-grow, flex-shrink, and flex-basis properties */
+    margin: 10px; /* Adds some space around each category */
+    min-width: 300px; /* Ensures that each category doesn't get too narrow */
+}
