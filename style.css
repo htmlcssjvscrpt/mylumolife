@@ -37,3 +37,8 @@ body, html {
     margin: 10px; /* Adds some space around each category */
     min-width: 300px; /* Ensures that each category doesn't get too narrow */
 }
+
+footer {
+    border: 2px solid black;
+    border-radius: 10px;
+}
